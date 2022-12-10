@@ -1,0 +1,84 @@
+body{
+    font-family: latha;
+    color: burlywood;
+    background-image: url() no-repeat;
+    
+}
+.box{ width: 900px;
+float: right;
+border: 1px solid black;
+background-color: blueviolet;}
+.box ul li{
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+}
+.box ul li a{ 
+    text-decoration: none;
+    color: darkgray;
+}
+.box ul li:hover{ background-color: green;}
+.box ul li a:hover{ color: white;}
+.wd{
+    width: 300px;
+    height: 539px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+.wd h1{ 
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.wd h4{
+    text-align: justify;
+    color: darkgray;
+    font-weight: normal;
+}
+.wd h2{ 
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: green;
+}
+.abc{
+    text-align: justify;
+    color: black;
+    font-weight: 100;
+    margin: 120px;
+}
+img{
+    border: 3px solid #ddd;
+    border-radius: 0px;
+    padding: 5px;
+    width: 300px
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 15%;
+    font-weight: 700;
+    background: red;
+}
+.image{
+    width: fit-content;
+}
